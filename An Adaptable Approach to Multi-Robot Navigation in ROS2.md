@@ -19,20 +19,28 @@ Se han adaptado algunos pasos y configuraciones para satisfacer los requisitos d
 
 Se recomienda revisar el artículo original para más detalles o enfoques alternativos.
 
-<-- ## Tabla de contenidos
-- [Descripción](#descripción)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Estructura del proyecto](#estructura-del-proyecto)
-- [Contribuciones](#contribuciones)
-- [Referencias](#referencias) ->>
 
 ## Instalación
-1. Instala las dependencias necesarias para Nav2:
-   ```bash
-   sudo apt update
-   sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-cartographer
+1. Instala 
+```bash
+mkdir -p robot_ws/src
+cd robot_ws/src
 
+git clone https://github.com/arshadlab/turtlebot3_multi_robot.git -b master
+
+cd robot_ws
+source /opt/ros/humble/setup.bash
+rosdep install --from-paths src -r -y
+```
+
+## Ejecución
+1. Ejecuta comandos para abrir simulación
+```bash
+cd robot_ws/
+colcon build --symlink-install
+source ./install/setup.bash
+ros2 launch turtlebot3_multi_robot gazebo_multi_nav2_world.launch.py enable_drive:=True  
+```
 ## Referencias
 1. ["A Guide to Multi-Robot Navigation Utilizing TurtleBot3 and Nav2"](https://medium.com/@arshad.mehmood/a-guide-to-multi-robot-navigation-utilizing-turtlebot3-and-nav2-cd24f96d19c6) por Arshad Mehmood.
 
