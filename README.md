@@ -14,7 +14,4 @@ Está desarrollado en ROS2 y simulado en Gazebo.
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Contribuciones](#contribuciones)
 
-## Instalación
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/multi-slam-turtlebots.git
+
