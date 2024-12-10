@@ -39,7 +39,7 @@ rosdep install --from-paths src -r -y
 cd robot_ws/
 colcon build --symlink-install
 source ./install/setup.bash
-ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_drive:=True
+ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py
 ```
 ## Referencias
 1. ["A Guide to Multi-Robot Navigation Utilizing TurtleBot3 and Nav2"](https://medium.com/@arshad.mehmood/a-guide-to-multi-robot-navigation-utilizing-turtlebot3-and-nav2-cd24f96d19c6) por Arshad Mehmood.
