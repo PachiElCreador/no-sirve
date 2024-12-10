@@ -19,13 +19,13 @@ Se han adaptado algunos pasos y configuraciones para satisfacer los requisitos d
 
 Se recomienda revisar el artículo original para más detalles o enfoques alternativos.
 
-## Tabla de contenidos
+<-- ## Tabla de contenidos
 - [Descripción](#descripción)
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Contribuciones](#contribuciones)
-- [Referencias](#referencias)
+- [Referencias](#referencias) ->>
 
 ## Instalación
 1. Instala las dependencias necesarias para Nav2:
