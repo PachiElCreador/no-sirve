@@ -20,12 +20,27 @@ gedit /home/oscar/robot_ws/src/turtlebot3_multi_robot/launch/nav2_bringup/bringu
 
 ## 🚀 Simulación
 
-### Comandos para abrir simulación
+### Comandos para abrir simulación multi robot house
 ```bash
 cd robot_ws/
 colcon build --symlink-install
 source ./install/setup.bash
 ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_drive:=True
+```
+
+### Comandos para abrir simulación ejemplo Robotis 
+```bash
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+```
+Run teleoperation mode:
+```bash
+ros2 run turtlebot3_teleop teleop_keyboard
+```
+
+Save map
+```bash
+ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
 
 ---
