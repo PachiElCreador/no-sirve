@@ -31,8 +31,11 @@ ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_dri
 ### Comandos para abrir simulación ejemplo Robotis 
 ```bash
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
+```bash
 ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 ```
+
 Run teleoperation mode:
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
@@ -44,6 +47,14 @@ ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
 
 ---
+
+### Cerrar procesos residuales
+```bash
+pkill -f gazebo
+pkill -f rviz
+pkill -f ros2
+```
+
 
 ## 🛠️ Configuraciones Adicionales
 ### Chat GPT
