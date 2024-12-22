@@ -7,23 +7,27 @@ Este documento contiene comandos, configuraciones y notas relevantes organizadas
 ## 📁 Accesos y Configuración
 
 ### Abrir archivos de instalación del TurtleBot3
+```bash
 sudo nautilus /home/oscar/turtlebot3_ws/install
+```
 
 ---
 
 ## 🚀 Simulación
 
 ### Comandos para abrir simulación
+```bash
 cd robot_ws/
 colcon build --symlink-install
 source ./install/setup.bash
 ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_drive:=True
+```
 
 ---
 
 ## 🛠️ Configuraciones Adicionales
-### [Título del Tema]
-(Especifica cualquier detalle adicional que sea útil aquí)
+### Chat GPT
+Answer in chat instead
 
 ---
 
