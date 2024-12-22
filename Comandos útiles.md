@@ -55,6 +55,15 @@ pkill -f rviz
 pkill -f ros2
 ```
 
+Lista los nodos activos:
+```bash
+ros2 node list
+```
+Verifica los temas disponibles:
+```bash
+ros2 topic list
+```
+
 
 ## 🛠️ Configuraciones Adicionales
 ### Chat GPT
@@ -65,3 +74,5 @@ Answer in chat instead
 ## 🔗 Referencias y Notas
 - Enlace a documentación relacionada: [Enlace aquí](https://example.com)
 - Notas importantes: [Escribe cualquier aclaración importante]
+
+
