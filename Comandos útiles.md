@@ -11,6 +11,11 @@ Este documento contiene comandos, configuraciones y notas relevantes organizadas
 sudo nautilus /home/oscar/turtlebot3_ws/install
 ```
 
+### Editar bringup_launch.py
+```bash
+gedit /home/oscar/robot_ws/src/turtlebot3_multi_robot/launch/nav2_bringup/bringup_launch.py
+```
+
 ---
 
 ## 🚀 Simulación
