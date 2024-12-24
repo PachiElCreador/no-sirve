@@ -27,12 +27,10 @@ colcon build --symlink-install
 source ./install/setup.bash
 ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_drive:=True
 ```
-Start slam for tb1 and tb2
-### 
+### Start slam for tb1 and tb2
 ```bash
 ros2 launch slam_toolbox online_sync_launch.py namespace:=/tb1 use_sim_time:=true
 ```
-### 
 ```bash
 ros2 launch slam_toolbox online_sync_launch.py namespace:=/tb1 use_sim_time:=true
 ```
@@ -85,11 +83,12 @@ Answer in chat instead
 
 ---
 
-Comandos útiles:
-
+## Comandos útiles:
 
 ctrl c: Terminar procesos
+
 ctrl shift c: copiar
+
 ctrl shift v: pegar
 
 ## 🔗 Referencias y Notas
