@@ -54,6 +54,12 @@ pkill -f gazebo
 pkill -f rviz
 pkill -f ros2
 ```
+### Cerrar procesos residuales
+```bash
+ps aux | grep gazebo
+ps aux | grep ros2
+ps aux | grep rviz
+```
 
 Lista los nodos activos:
 ```bash
@@ -70,6 +76,13 @@ ros2 topic list
 Answer in chat instead
 
 ---
+
+Comandos útiles:
+
+
+ctrl c: Terminar procesos
+ctrl shift c: copiar
+ctrl shift v: pegar
 
 ## 🔗 Referencias y Notas
 - Enlace a documentación relacionada: [Enlace aquí](https://example.com)
