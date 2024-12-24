@@ -27,7 +27,15 @@ colcon build --symlink-install
 source ./install/setup.bash
 ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_drive:=True
 ```
-
+Start slam for tb1 and tb2
+### 
+```bash
+ros2 launch slam_toolbox online_sync_launch.py namespace:=/tb1 use_sim_time:=true
+```
+### 
+```bash
+ros2 launch slam_toolbox online_sync_launch.py namespace:=/tb1 use_sim_time:=true
+```
 ### Comandos para abrir simulación ejemplo Robotis 
 ```bash
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
@@ -87,5 +95,11 @@ ctrl shift v: pegar
 ## 🔗 Referencias y Notas
 - Enlace a documentación relacionada: [Enlace aquí](https://example.com)
 - Notas importantes: [Escribe cualquier aclaración importante]
+
+
+### 
+```bash
+
+```
 
 
