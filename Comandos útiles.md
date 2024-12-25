@@ -25,7 +25,7 @@ gedit /home/oscar/robot_ws/src/turtlebot3_multi_robot/launch/nav2_bringup/bringu
 cd robot_ws/
 colcon build --symlink-install
 source ./install/setup.bash
-ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py enable_drive:=True
+ros2 launch turtlebot3_multi_robot gazebo_multi_robot_house.launch.py #enable_drive:=True
 ```
 ### Start slam for tb1 and tb2
 ```bash
