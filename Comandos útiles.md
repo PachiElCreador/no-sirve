@@ -45,6 +45,10 @@ ros2 launch slam_toolbox online_sync_launch.py namespace:=/tb1 use_sim_time:=tru
 ```
 ## Comandos para abrir simulación ejemplo Robotis 
 ```bash
+cd ~/turtlebot3_ws
+colcon build --symlink-install
+```
+```bash
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 ```bash
