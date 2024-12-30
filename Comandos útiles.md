@@ -6,9 +6,9 @@ Este documento contiene comandos, configuraciones y notas relevantes organizadas
 
 ## 📁 Accesos y Configuración
 
-### Abrir archivos de instalación del TurtleBot3
+### Abrir archivo donde se guarda el perro mapa
 ```bash
-sudo nautilus /home/oscar/turtlebot3_ws/install
+sudo nautilus /opt/ros/humble/share/turtlebot3_navigation2/map
 ```
 
 ### Editar bringup_launch.py
