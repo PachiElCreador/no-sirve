@@ -54,6 +54,12 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```bash
 ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 ```
+```bash
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True namespace:=/tb1
+```
+```bash
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True namespace:=/tb2
+```
 
 Run teleoperation mode:
 ```bash
