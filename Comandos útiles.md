@@ -95,6 +95,11 @@ Verifica los temas disponibles:
 ros2 topic list
 ```
 
+PDF del entorno:
+```bash
+ros2 run tf2_tools view_frames
+```
+
 
 ## 🛠️ Configuraciones Adicionales
 ### Chat GPT
