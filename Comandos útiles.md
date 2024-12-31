@@ -98,7 +98,8 @@ ros2 topic list
 
 ## 🛠️ Configuraciones Adicionales
 ### Chat GPT
-Answer in chat instead
+Answer in canvas: Da su respuesta en una ventana emergente 
+Answer in chat instead: En chat
 
 ---
 
