@@ -1,4 +1,4 @@
-# An Adaptable Approach to Multi-Robot Navigation in ROS2
+# Approximation to multinavigation with ROS2 humble
 
 Sistema de navegación y mapeo colaborativo para múltiples TurtleBots en un entorno ROS2 y Gazebo.
 
