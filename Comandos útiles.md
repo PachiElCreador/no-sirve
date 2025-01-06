@@ -4,7 +4,7 @@ Este documento contiene comandos, configuraciones y notas relevantes organizadas
 
 ---
 
-## 📁 Accesos y Configuración
+## Accesos y Configuración
 
 ### Abrir archivo donde se guarda el perro mapa
 ```bash
@@ -18,7 +18,7 @@ gedit /home/oscar/robot_ws/src/turtlebot3_multi_robot/launch/nav2_bringup/bringu
 
 ---
 
-## 🚀 Simulación
+## Simulación
 
 ## Comandos para abrir simulación multi robot house
 ```bash
@@ -101,7 +101,7 @@ ros2 run tf2_tools view_frames
 ```
 
 
-## 🛠️ Configuraciones Adicionales
+## Configuraciones Adicionales
 ### Chat GPT
 Answer in canvas: Da su respuesta en una ventana emergente 
 Answer in chat instead: En chat
